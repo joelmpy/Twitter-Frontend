@@ -3,7 +3,7 @@ import Login from "../pages/login";
 import {Routes, Route} from "react-router-dom"
 import Firstpage from "../pages/firstpage";
 
-function Routeur ()  {
+function Router ()  {
     return (
         <Routes>
             <Route path="/" element={<Firstpage/>}></Route>
@@ -12,4 +12,4 @@ function Routeur ()  {
     )
 }
 
-export default Routeur
+export default Router
