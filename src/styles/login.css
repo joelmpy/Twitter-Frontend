@@ -1,0 +1,24 @@
+.card{
+    background-color: #3f3838 !important;
+    height: 150vh;
+}
+
+.cards {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.card-section {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
