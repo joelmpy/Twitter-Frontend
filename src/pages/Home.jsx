@@ -1,18 +1,13 @@
 import React from "react";
 import "../styles/homepage.css"
 import Tweeter from "../component/Tweeter";
-import Tweets from "../component/Tweets";
-import Headear from "../component/header";
+import Header from "../component/header";
 
 function Home() {
     return (
-
-
-        <div className="row">
-                <Headear></Headear>
-                <Tweeter></Tweeter>
-                <Tweets></Tweets>
-          
+        <div id="page">
+            <Header></Header>
+            <Tweeter></Tweeter>
         </div>
     )
 }
