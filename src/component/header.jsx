@@ -6,7 +6,6 @@ import { faBrands, faTwitter } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
     return (
-
             <aside className="col-md-2 col-0 pt-2 bg-dark">
                 <header className="bg-dark">
                     <ul className="flex-column">
