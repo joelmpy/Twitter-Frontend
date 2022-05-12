@@ -32,7 +32,7 @@
     font-family: 1rem;
 }
 
-.card a {
+/* .card a {
     padding: 15px 20px;
     color: black;
     display: block;
@@ -41,7 +41,7 @@
     margin: 20px 50px;
     text-decoration: none;
     font-size: 17px;
-}
+} */
 
 .identify form {
     display: flex;

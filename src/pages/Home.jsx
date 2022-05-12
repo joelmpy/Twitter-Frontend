@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/homepage.css"
 import Tweeter from "../component/Tweeter";
 import Header from "../component/header";
 
