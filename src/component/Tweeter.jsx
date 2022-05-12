@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card"
 function Tweeter() {
 
   return (
-    <div className="col-12 pb-2">
+    <div className="col-8 pb-2">
       <Card style={{ height: '10rem' }} className="bg-dark">
         <Card.Body>
           <Card.Title className="text-white text-start">Username</Card.Title>
