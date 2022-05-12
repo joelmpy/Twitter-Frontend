@@ -11,7 +11,6 @@
     border-radius: 15px;
     background-color: rgb(62, 62, 62);
     height: 80vh;
-
 }
 
 .card-image img {
@@ -32,6 +31,7 @@
     font-family: 1rem;
 }
 
+<<<<<<< HEAD
 /* .card a {
     padding: 15px 20px;
     color: black;
@@ -43,6 +43,8 @@
     font-size: 17px;
 } */
 
+=======
+>>>>>>> 7b45e540e39fc445913046a581b74734420c7973
 .identify form {
     display: flex;
     justify-content: center;
