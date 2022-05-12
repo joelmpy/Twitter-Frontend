@@ -26,7 +26,6 @@ function Firstpage() {
                         <h3>Vous avez deja un compte</h3>
                         <button type="button" class="btn btn-outline-primary btn-rounded p-2 mb-2 mt-2" data-mdb-ripple-color="dark"><Link to="/Login">Se connecter</Link></button>
                     </div>
-                 
                 </div>
             </div>
         </div>

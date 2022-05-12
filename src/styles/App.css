@@ -2,3 +2,17 @@
   text-align: center;
 }
 
+#button-tweeter {
+  border-radius: 30%;
+}
+
+#page {
+  flex-direction: row;
+  display: flex
+}
+
+#content {
+  justify-content: center;
+  flex: column;
+  padding: 20vh
+}
