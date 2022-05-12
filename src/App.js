@@ -3,7 +3,7 @@ import Routeur from "./routes/Routeur";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container App">
       <Routeur />
     </div>
   );
