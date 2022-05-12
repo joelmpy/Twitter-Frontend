@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 
 function Login() {
 
-    const { register, handleSubmit, formState:{errors}, getValues} = useForm();
+    const { register, handleSubmit, formState: { errors }, getValues } = useForm();
     return (
         <div className="card-container">
             <div class="card">
@@ -17,9 +17,9 @@ function Login() {
                     <h2>Connectez-vous à Twitter</h2>
                 </div>
                 <div className="identify">
-                    <form onSubmit={handleSubmit((data) => {console.log(data) },  )}>
-                        <input type="text"  placeholder="FirstName"{...register("FirstName", {required: true, maxLength:20})}></input>
-                        <input type="password" placeholder="password" {...register("password",)} ></input>
+                    <form onSubmit={handleSubmit((data) => { console.log(data) },)}>
+                        <input type="text" placeholder="FirstName"{...register("FirstName", { required: true, maxLength: 20 })}></input>
+                        <input type="password" placeholder="password" {...register("password", { required: true, minLength: 8 })} ></input>
                         <input type="submit" ></input>
                     </form>
                 </div>

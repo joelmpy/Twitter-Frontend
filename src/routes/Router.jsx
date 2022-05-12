@@ -3,7 +3,6 @@ import Login from "../pages/login";
 import {Routes, Route} from "react-router-dom";
 import Firstpage from "../pages/firstpage";
 import Home from "../pages/Home";
-
 import Profil from "../pages/profil"
 
 function Router ()  {
