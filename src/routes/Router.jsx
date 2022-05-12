@@ -6,7 +6,7 @@ import Home from "../pages/Home";
 
 import Profil from "../pages/profil"
 
-function Routeur ()  {
+function Router ()  {
     return (
         <Routes>
             <Route path="/" element={<Firstpage/>}></Route>
@@ -17,4 +17,4 @@ function Routeur ()  {
     )
 }
 
-export default Routeur
+export default Router
