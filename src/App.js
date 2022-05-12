@@ -1,9 +1,10 @@
 import "./styles/App.css";
 import Router from "./routes/Router";
 
+
 function App() {
   return (
-    <div className="container App">
+    <div className="App">
       <Router />
     </div>
   );
