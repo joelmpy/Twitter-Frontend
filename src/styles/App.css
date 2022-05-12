@@ -2,29 +2,71 @@
   text-align: center;
 }
 
+p {
+  font-size: 13px;
+}
+
 #button-tweeter {
-  border-radius: 30%;
+  border-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  background-color: #1D9BF0;
+  color: white;
+  width: 70%;
+  height: 40%;
 }
 
 #page {
   flex-direction: row;
   display: flex;
   color: white;
-  background-color: black
+  background-color: #000000
 }
 
 #content {
-  justify-content: center;
   flex: column;
-  padding: 0
+  padding: 0;
+  border: 1px solid #2F3336;
 }
 
 #banner {
-  display: flex;
   width: 100%;
   height: 30vh
 }
 
 li {
   list-style: none;
+}
+
+li * {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#user {
+  border-bottom: 1px solid #2F3336;
+  text-align: left !important;
+  padding-left: 2.5%
+}
+
+aside {
+  border-right: 1px solid #2F3336
+}
+
+svg {
+  fill: white;
+  width: 25px
+}
+
+.element-column {
+  flex-direction: row;
+  display: flex;
+  padding-left: 20%
+}
+
+.icon-twitter {
+  padding-right: 35%;
+  padding-bottom: 4%
 }
