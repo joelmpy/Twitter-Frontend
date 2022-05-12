@@ -6,8 +6,8 @@ import { faBrands, faTwitter } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
     return (
-        <div >
-            <aside className="col-2 pt-2 bg-dark">
+
+            <aside className="col-md-2 col-0 pt-2 bg-dark">
                 <header className="bg-dark">
                     <ul className="flex-column">
                         {/* <FontAwesomeIcon icon="fa-brands fa-twitter" id="twitter-icon" /> */}
@@ -19,7 +19,6 @@ function Header() {
                     </ul>
                 </header>
             </aside>
-        </div>
     )
 }
 
