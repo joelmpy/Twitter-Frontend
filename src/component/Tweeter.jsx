@@ -7,19 +7,19 @@ import Tweets from "../component/Tweets";
 function Tweeter() {
 
   return (
-    <div className="col-5 pb-2">
-      <div>
-      <Card style={{ height: '10rem' }} className="bg-dark">
-        <Card.Body>
-          <Card.Title className="text-white text-start">Username</Card.Title>
-          <Form>
-            <Form.Group className="mb-3">
-              <Form.Control type="text" placeholder="Quoi de neuf ?" />
-            </Form.Group>
-            <Button className="primary" type="submit">Tweeter</Button>
-          </Form>
-        </Card.Body>
-      </Card>
+    <div className="content col-md-5 col-10">
+      <div id="tweeter">
+        <div id="tittle-tweeter">
+        <p>Username</p>
+        </div>
+        <Form>
+          <Form.Group className="mb-3">
+            <Form.Control type="text" placeholder="Quoi de neuf ?" />
+          </Form.Group>
+          <div id="div-button-tweeter">
+            <Button id="button-tweeter" className="primary" type="submit">Tweeter</Button>
+          </div>
+        </Form>
       </div>
       <Tweets />
     </div>

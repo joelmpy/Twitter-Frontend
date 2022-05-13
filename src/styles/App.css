@@ -6,7 +6,7 @@ p {
   font-size: 13px;
 }
 
-#button-tweeter {
+#button-tweeter-header {
   border-radius: 9999px;
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
@@ -15,7 +15,24 @@ p {
   background-color: #1D9BF0;
   color: white;
   width: 70%;
-  height: 40%;
+}
+
+#button-tweeter {
+  border-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  background-color: #1D9BF0;
+  color: white;
+  width: 15%;
+  height: 2rem;
+  text-align: center;
+  line-height: 1rem;
+}
+
+#div-button-tweeter {
+  text-align: end;
 }
 
 #page {
@@ -25,7 +42,7 @@ p {
   background-color: #000000
 }
 
-#content {
+.content {
   flex: column;
   padding: 0;
   border: 1px solid #2F3336;
@@ -69,4 +86,15 @@ svg {
 .icon-twitter {
   padding-right: 35%;
   padding-bottom: 4%
+}
+
+#tweeter {
+  flex: column;
+  padding: 0;
+  border: 1px solid #2F3336;
+  background-color: #000000;
+}
+
+#tittle-tweeter {
+  text-align: left;
 }

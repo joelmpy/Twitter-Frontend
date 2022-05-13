@@ -4,7 +4,7 @@ import Tweets from "../component/Tweets"
 
 function ProfilUser() {
     return (
-        <div id="content" class="col-md-5 col-10">
+        <div className="content col-md-5 col-10">
             <div>
                 <img id="banner" src="https://images.squarespace-cdn.com/content/v1/591a2282bebafb6254a1f083/1494885767592-RY0PVAGNDBPYTIM6BEO9/pov-blue.jpg?format=2500w" />
             </div>

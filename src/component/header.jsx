@@ -46,7 +46,7 @@ function Header() {
                             <a className="nav-link pl-0 text-light" href="#"> Plus</a>
                         </div>
                     </li>
-                    <Button id="button-tweeter" variant="info">Tweeter</Button>
+                    <Button id="button-tweeter-header" variant="info">Tweeter</Button>
                 </ul>
             </header>
         </aside>
