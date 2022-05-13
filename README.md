@@ -10,10 +10,9 @@ It's twitter but It's not Twitter
 
 ## Usage
 
-You can share everything you want with other people with tweets (like what did you eat today or that you have won a tournament) and you can say what you think about something with comment(
+You can share everything you want with other people with tweets (like what did you eat today or that you have won a tournament) and you can say what you think about something with comment:
 * Jean: "i don't like spider-man" 
 * Charles: "Personally i like him"
-) or like :like:
 
 ## Tech used
 
