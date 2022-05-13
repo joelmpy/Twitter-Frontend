@@ -1,0 +1,17 @@
+.footer-link {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.resaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resaux li {
+    display: flex;
+}

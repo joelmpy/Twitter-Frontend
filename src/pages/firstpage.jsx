@@ -7,7 +7,6 @@ import Exemple from "../component/button";
 function Firstpage() {
     return (
         <div className="d-flex flex-row">
-            
             <div className="col-6">
                 <img src="https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png" ></img>
             </div>
@@ -29,7 +28,9 @@ function Firstpage() {
                     </div>
                 </div>
             </div>
+        
         </div>
+     
     )
 }
 
