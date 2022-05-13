@@ -9,6 +9,7 @@ function Profil() {
             <Header />
             <ProfilUser />
         </div>
+      
     )
 }
 
