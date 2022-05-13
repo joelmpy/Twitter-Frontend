@@ -25,7 +25,6 @@ function Tweeter() {
     <div className="content col-md-5 col-10">
       <div id="tweeter">
         <div id="tittle-tweeter">
-        <p>Username</p>
         </div>
         <Form onSubmit={handleSubmit(onSubmit)}>
           <Form.Group className="mb-3">
