@@ -4,24 +4,31 @@ It's twitter but it's not
 
 ## Features
 
-* Users can create an account via Signup and can enter the site via Login
+* Users can create an account via Signup and can access the site via Login
 * User can tweet (write something and post it on the site)
 * User can like, retweet and comment on other tweet
 
 ## Usage
 
-You can share everything you want with other people with tweets (like what did you eat today or that you have won a tournament) and you can say what you think about something with comment:
+You can share everything you want with other people on internet with tweets (like what did you eat today or that you have won a tournament) and you can say what you think about a tweet with comments:
 * Jean: "i don't like spider-man" 
 * Charles: "Personally i like him"
 
 ## Tech used
 
 ### Front-side
-* Boostrap
 * React.js
+* Boostrap
 
 ### Back-side
 * MongoDB
+* Bcrypt
+* Cors
+* Express
+* Mongoose
+* Morgan
+* Multer
+* Passport
 
 ## About us
 
