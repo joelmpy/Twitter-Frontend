@@ -91,10 +91,48 @@ svg {
 #tweeter {
   flex: column;
   padding: 0;
-  border: 1px solid #2F3336;
+  border-top: 1px solid #2F3336;
+  border-bottom: 1px solid #2F3336;
   background-color: #000000;
 }
 
 #tittle-tweeter {
   text-align: left;
+}
+
+#tweet {
+  flex: column;
+  padding: 0;
+  border-top: 1px solid #2F3336;
+  border-bottom: 1px solid #2F3336;
+  background-color: #000000;
+}
+
+#text-tweet {
+  text-align: left;
+}
+
+#div-a-tweet {
+  flex-direction: column;
+}
+
+.a-tweet {
+  padding-right: 12.5%;
+  padding-left: 12.5%
+}
+
+.comment svg:hover {
+  fill: #1D9BF0
+}
+
+.retweet svg:hover {
+  fill: rgb(0, 186, 124);
+}
+
+.like svg:hover {
+  fill: rgb(249, 24, 128)
+}
+
+.bold {
+  font-weight: bold;
 }
