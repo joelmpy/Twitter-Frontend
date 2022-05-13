@@ -14,7 +14,7 @@ function Tweeter() {
         </div>
         <Form>
           <Form.Group className="mb-3">
-            <Form.Control type="text" placeholder="Quoi de neuf ?" />
+            <Form.Control id="input-tweeter" type="text" placeholder="Quoi de neuf ?" />
           </Form.Group>
           <div id="div-button-tweeter">
             <Button id="button-tweeter" className="primary mb-2" type="submit">Tweeter</Button>

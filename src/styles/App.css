@@ -121,6 +121,13 @@ svg {
   padding-left: 12.5%
 }
 
+#input-tweeter {
+  background-color: #000000;
+  color: white;
+  border: 0;
+  border-bottom: 1px solid #2F3336; ;
+}
+
 .comment svg:hover {
   fill: #1D9BF0
 }
